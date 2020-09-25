@@ -1,0 +1,29 @@
+'''Variables Code Challenge'''
+
+# ask a user to enter their first name and store it in a variable
+firstname = input("Enter first name: ")
+# ask a user to enter their last name and store it in a variable
+lastname = input("Enter last name: ")
+# print their full name
+# Make sure you have a space between first and last name
+# Make sure the first letter of first name and last name is uppercase
+# Make sure the rest of the name is lowercase
+print(firstname.capitalize() + " " + lastname.capitalize())
+
+# Ask a user to enter a number
+num1 = input("Enter a number: ")
+# Ask a user to enter a second number
+num2 = input("Enter another number: ")
+# Calculate the total of the two numbers added together
+# Print 'first number + second number = answer'
+# For example if someone enters 4 and 6 the output should read
+# 4 + 6 = 10
+ans1 = int(num1) + int(num2)
+print(str(num1) + " + " + str(num2) + " = " + str(ans1))
+# Continue these steps for subtraction, multiplication, and division
+ans2 = int(num1) - int(num2)
+print(str(num1) + " - " + str(num2) + " = " + str(ans2))
+ans3 = int(num1) * int(num2)
+print(str(num1) + " * " + str(num2) + " = " + str(ans3))
+ans4 = int(num1) / int(num2)
+print(str(num1) + " / " + str(num2) + " = " + str(ans4))
